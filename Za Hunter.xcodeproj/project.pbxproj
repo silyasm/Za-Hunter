@@ -13,6 +13,7 @@
 		3FC7583C25F688130071D88F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC7583B25F688130071D88F /* Preview Assets.xcassets */; };
 		3FC7584725F688130071D88F /* Za_HunterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC7584625F688130071D88F /* Za_HunterTests.swift */; };
 		3FC7585225F688140071D88F /* Za_HunterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC7585125F688140071D88F /* Za_HunterUITests.swift */; };
+		3FC7586325F689E50071D88F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC7586225F689E50071D88F /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		3FC7584D25F688140071D88F /* Za HunterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Za HunterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC7585125F688140071D88F /* Za_HunterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Za_HunterUITests.swift; sourceTree = "<group>"; };
 		3FC7585325F688140071D88F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC7586225F689E50071D88F /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				3FC7583425F6880D0071D88F /* Za_HunterApp.swift */,
 				3FC7583625F6880D0071D88F /* ContentView.swift */,
+				3FC7586225F689E50071D88F /* LocationManager.swift */,
 				3FC7583825F688130071D88F /* Assets.xcassets */,
 				3FC7583D25F688130071D88F /* Info.plist */,
 				3FC7583A25F688130071D88F /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				3FC7583725F6880D0071D88F /* ContentView.swift in Sources */,
 				3FC7583525F6880D0071D88F /* Za_HunterApp.swift in Sources */,
+				3FC7586325F689E50071D88F /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
